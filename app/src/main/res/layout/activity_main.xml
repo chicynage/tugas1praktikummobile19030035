@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttoninput"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="436dp"
+        android:layout_alignParentLeft="true"
+        android:text="INPUTAN"
+        android:onClick="input" />
+
+    <EditText
+        android:id="@+id/namaTimA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="299dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="NAMA TIM A" />
+
+    <EditText
+        android:id="@+id/namaTimB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="330dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="NAMA TIM B" />
+
+</RelativeLayout>

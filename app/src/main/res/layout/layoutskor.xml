@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonsatuPointA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:text="SATU POINT" />
+
+    <Button
+        android:id="@+id/buttonduaPointA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:text="DUA POINT" />
+
+    <Button
+        android:id="@+id/buttontigaPointA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="280dp"
+        android:text="TIGA POINT" />
+
+    <TextView
+        android:id="@+id/textPointTimA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Point Tim A"
+        android:textSize="30dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="130dp"/>
+
+    <TextView
+        android:id="@+id/tVPointTimA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="180dp"/>
+
+    <Button
+        android:id="@+id/buttonresetperhitunganA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="120dp"
+        android:text="RESET PERHITUNGAN" />
+
+    <Button
+        android:id="@+id/buttonresetperhutunganB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="120dp"
+        android:text="RESET PERHITUNGAN" />
+
+    <TextView
+        android:id="@+id/tVPointB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="180dp"/>
+
+    <TextView
+        android:id="@+id/textPointTimB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Point Tim B"
+        android:textSize="30dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="130dp"/>
+
+    <Button
+        android:id="@+id/buttonsatuPointB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="10dp"
+        android:text="SATU POINT" />
+
+    <Button
+        android:id="@+id/buttonduaPointB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DUA POINT"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="150dp"/>
+
+    <Button
+        android:id="@+id/buttontigaPointB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="280dp"
+        android:text="TIGA POINT"  />
+
+</RelativeLayout>
